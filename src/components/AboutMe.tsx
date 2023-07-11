@@ -2,8 +2,8 @@ import { Lightbulb, ClipboardEdit } from "lucide-react";
 
 export function AboutMe() {
   return (
-    <div className="flex min-h-[80vh] justify-center bg-blue-400 pt-12 text-white-400" id="sobre-mim">
-      <div className="grid h-full w-[60%] grid-cols-4 items-center justify-items-center gap-24 py-2 tab:grid-cols-2 tab:grid-rows-[100px_1fr_1fr_1fr] tab:gap-0">
+    <div className="flex min-h-[80vh] justify-center bg-blue-400 py-12 text-white-400" id="sobre-mim">
+      <div className="grid h-full w-[60%] grid-cols-4 items-center justify-items-center gap-24 tab:grid-cols-2 tab:grid-rows-[100px_repeat(3,_1fr)] tab:gap-0 tab:w-[80%]">
         <h1 className="col-start-1 col-end-3 justify-self-start text-2xl font-bold tab:col-start-1 tab:row-start-1" >
           SOBRE MIM
         </h1>

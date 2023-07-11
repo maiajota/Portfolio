@@ -58,7 +58,7 @@ module.exports = {
       },
     },
     screens: {
-      tab: { max: "670px" },
+      tab: { max: "640px" },
     },
   },
   plugins: [],

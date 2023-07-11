@@ -5,11 +5,11 @@ import Link from "next/link";
 export function Hero() {
   return (
     <main className="pattern flex min-h-screen justify-center pt-16" id="inicio">
-      <div className="flex min-h-full w-[60%] flex-wrap items-center justify-center gap-24 mb-4">
-        <div className="flex w-[40%] flex-1 flex-col gap-8">
+      <div className="flex min-h-full w-[60%] flex-wrap items-center justify-center mb-8">
+        <div className="flex w-[40%] flex-1 flex-col gap-4">
           <h2 className="text-3xl">
             Oi, sou um{" "}
-            <span className="bg-blue-400 px-3 font-semibold text-white-400">
+            <span className="bg-blue-400 px-3 font-semibold text-white-300 whitespace-nowrap">
               Web Dev
             </span>
           </h2>
@@ -32,7 +32,7 @@ export function Hero() {
             width={300}
             height={300}
             alt="Meu perfil"
-            className="rounded-full bg-blue-400 border-8 border-white-500"
+            className="rounded-full bg-blue-400"
           />
         </div>
       </div>
