@@ -5,7 +5,7 @@ import Link from "next/link";
 export function Hero() {
   return (
     <main className="pattern flex min-h-screen justify-center pt-16" id="inicio">
-      <div className="flex min-h-full w-[60%] flex-wrap items-center justify-center mb-8">
+      <div className="flex min-h-full w-[60%] flex-wrap items-center gap-8 justify-center mb-8 tab:py-8">
         <div className="flex w-[40%] flex-1 flex-col gap-4">
           <h2 className="text-3xl">
             Oi, sou um{" "}

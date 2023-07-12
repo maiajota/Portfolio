@@ -2,11 +2,13 @@ import { AboutMe } from "@/components/AboutMe";
 import { Hero } from "@/components/Hero";
 import { NavBar } from "@/components/NavBar";
 import { Skill } from "@/components/Skill";
+import { NavBarMobile } from "@/components/NavBarMobile";
 
 export default function Home() {
   return (
     <div>
       <NavBar />
+      <NavBarMobile />
       <Hero />
       <AboutMe />
       <div className="pattern flex min-h-screen justify-center py-4">
