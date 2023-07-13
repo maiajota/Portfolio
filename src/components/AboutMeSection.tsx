@@ -1,9 +1,9 @@
 import { Lightbulb, ClipboardEdit } from "lucide-react";
 import "aos/dist/aos.css";
 
-export function AboutMe() {
+export function AboutMeSection() {
   return (
-    <div
+    <section
       className="flex min-h-[80vh] justify-center bg-blue-400 py-12 text-white-300"
       id="sobre-mim"
     >
@@ -42,6 +42,6 @@ export function AboutMe() {
           melhor desempenho nos projetos a mim designados.
         </p>
       </div>
-    </div>
+    </section>
   );
 }

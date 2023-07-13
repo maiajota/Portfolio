@@ -7,7 +7,7 @@ const poppins = Poppins({ weight: '400', subsets: ['latin']})
 
 export const metadata: Metadata = {
   title: 'João Victor Maia | Fullstack',
-  description: 'Venha garantir o sucesso do seu proximo app!',
+  description: 'Farei de tudo para o seu proximo app ficar incrível!',
 }
 
 export default function RootLayout({

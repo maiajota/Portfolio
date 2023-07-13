@@ -6,7 +6,7 @@ export function NavLink(props: any) {
   return (
     <Link
       to={props.href}
-      className="cursor-pointer font-semibold transition-colors hover:border-b-2 hover:border-blue-400"
+      className="cursor-pointer border-blue-400 font-semibold hover:border-b-2"
     >
       {props.name}
     </Link>

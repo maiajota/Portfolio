@@ -1,11 +1,13 @@
 "use client";
 
-import { AboutMe } from "@/components/AboutMe";
+
+import { useEffect } from "react";
+import { AboutMeSection } from "@/components/AboutMeSection";
 import { Hero } from "@/components/Hero";
 import { NavBar } from "@/components/NavBar";
-import { Skill } from "@/components/Skill";
 import { NavBarMobile } from "@/components/NavBarMobile";
-import { useEffect } from "react";
+import { SkillSection } from "@/components/SkillSection";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -23,7 +25,7 @@ export default function Home() {
       <NavBar />
       <NavBarMobile />
       <Hero />
-      <AboutMe />
+      <AboutMeSection />
       <div className="pattern flex min-h-screen justify-center py-4">
         <div className="flex h-full w-[60%] flex-col items-center justify-center">
           <h2
@@ -32,14 +34,7 @@ export default function Home() {
           >
             MINHAS SKILLS
           </h2>
-          <div className="mb-28 grid grid-cols-2 gap-4">
-            <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-            <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-            <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
-            <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
-            <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" />
-            <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
-          </div>
+          <SkillSection />
           <h2 className="rounded bg-blue-400 px-4 py-2 text-2xl font-bold text-white-400">
             PROJETOS
           </h2>
