@@ -1,10 +1,23 @@
+"use client";
+
 import { AboutMe } from "@/components/AboutMe";
 import { Hero } from "@/components/Hero";
 import { NavBar } from "@/components/NavBar";
 import { Skill } from "@/components/Skill";
 import { NavBarMobile } from "@/components/NavBarMobile";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
+  useEffect(() => {
+    Aos.init({
+      easing: "ease-out-cubic",
+      once: true,
+      offset: 50,
+    });
+  }, []);
+
   return (
     <div>
       <NavBar />

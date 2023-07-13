@@ -24,7 +24,7 @@ export function NavBarMobile() {
   };
 
   return (
-    <header className="fixed hidden w-full tab:block">
+    <header className="fixed z-[1000] hidden w-full tab:block">
       <nav className="flex h-[8vh] w-full items-center justify-end gap-8 bg-white-300 drop-shadow-lg">
         <Menu size={32} className="mr-5" onClick={handleNavBar} />
         <AnimatePresence>
@@ -37,11 +37,11 @@ export function NavBarMobile() {
               transition={{ duration: 0.2, delay: 0.3 }}
               exit="exit"
             >
-              <NavLinkMobile time="0.5" name="Início" link="#inicio" />
-              <NavLinkMobile time="0.6" name="Sobre Mim" link="#spbre-mim" />
-              <NavLinkMobile time="0.7" name="Skills" link="#skills" />
-              <NavLinkMobile time="0.8" name="Projeto" link="#projeto" />
-              <NavLinkMobile time="0.9" name="Contato" link="#contato" />
+              <NavLinkMobile time="0.7" name="Início" href="inicio" />
+              <NavLinkMobile time="0.8" name="Sobre Mim" href="sobre-mim" />
+              <NavLinkMobile time="0.9" name="Skills" href="skills" />
+              <NavLinkMobile time="1" name="Projeto" href="projeto" />
+              <NavLinkMobile time="1.1" name="Contato"href="#contato" />
             </motion.div>
           )}
         </AnimatePresence>

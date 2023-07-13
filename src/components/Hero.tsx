@@ -4,12 +4,15 @@ import Link from "next/link";
 
 export function Hero() {
   return (
-    <main className="pattern flex min-h-screen justify-center pt-16" id="inicio">
-      <div className="flex min-h-full w-[60%] flex-wrap items-center gap-8 justify-center mb-8 tab:py-8">
+    <main
+      className="pattern flex min-h-screen justify-center pt-16"
+      id="inicio"
+    >
+      <div className="mb-8 flex min-h-full w-[60%] flex-wrap items-center justify-center gap-8 tab:py-8">
         <div className="flex w-[40%] flex-1 flex-col gap-4">
           <h2 className="text-3xl">
             Oi, sou um{" "}
-            <span className="bg-blue-400 px-3 font-semibold text-white-300 whitespace-nowrap">
+            <span className="whitespace-nowrap bg-blue-400 px-3 font-semibold text-white-300">
               Web Dev
             </span>
           </h2>
@@ -19,7 +22,7 @@ export function Hero() {
             stacks para alavancar o seu projeto.
           </p>
           <Link
-            className=" flex max-w-[230px] items-center justify-center rounded-lg bg-red-300 p-2 text-2xl font-bold text-white-300 hover:bg-red-400 hover:text-white-500 transition-colors gap-2"
+            className=" flex max-w-[230px] items-center justify-center gap-2 rounded-lg bg-red-300 p-2 text-2xl font-bold text-white-300 transition-colors hover:bg-red-400 hover:text-white-500"
             href={"https://www.linkedin.com/in/maiajota/"}
           >
             <Linkedin />
